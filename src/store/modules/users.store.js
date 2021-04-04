@@ -22,7 +22,7 @@ const actions = {
       })
       .catch((error) => {
         commit('SET_LOADING', false)
-        console.error(error)
+        throw error
       })
   },
 }

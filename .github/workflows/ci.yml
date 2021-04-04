@@ -43,3 +43,4 @@ jobs:
           yarn --version
           yarn install --frozen-lockfile
           yarn test:unit --coverage
+          yarn test:e2e --headless --browser chrome
